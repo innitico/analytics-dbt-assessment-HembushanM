@@ -3,3 +3,6 @@ with addresses as (
 )
 
 select count(*) as address_count from addresses
+
+
+

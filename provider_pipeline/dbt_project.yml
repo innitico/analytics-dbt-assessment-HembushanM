@@ -1,3 +1,39 @@
+# name: 'provider_pipeline'
+# version: '1.0.0'
+
+# profile: 'provider_pipeline'
+
+
+# model-paths: ["models"]
+# analysis-paths: ["analyses"]
+# test-paths: ["tests"]
+# seed-paths: ["seeds"]
+# macro-paths: ["macros"]
+# snapshot-paths: ["snapshots"]
+
+# clean-targets:   
+#   - "target"
+#   - "dbt_packages"
+
+# seeds:
+#   provider_pipeline:
+#     +delimiter: ","
+#     +quote: '"'
+#     +escape: '"'
+
+# models:
+#   provider_pipeline:
+#     target: dev
+#     outputs:
+#       dev:
+#         type: duckdb
+#         path: "C:/Users/HemabushanManalytics-dbt-assessment-HembushanM" 
+#       provider_types:
+#         +materialized: table  
+#       provider_address_agg:
+#         +materialized: table  
+
+
 name: 'provider_pipeline'
 version: '1.0.0'
 

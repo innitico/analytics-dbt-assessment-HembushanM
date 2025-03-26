@@ -1,6 +1,4 @@
-{{ config(
-    materialized='table'
-) }}
+
 
 WITH provider_addresses AS (
     SELECT
